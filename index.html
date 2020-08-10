@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Advanced Web Authoring</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div id="pagecontainer">
+		<form method="post" action="confirmation.html">
+			<fieldset>
+				<legend>Send us a message</legend>
+				<div class="controlgroup">
+					<label for="emailaddress">Email address:</label>
+					<input type="email" name="emailaddress" id="emailaddress" placeholder="jdoe@example.com">
+				</div>
+				<div class="controlgroup">
+					<label for="firstname">First name:</label>
+					<input type="text" name="firstname" id="firstname">
+				</div>
+				<div class="controlgroup">
+					<label for="surname">Surname:</label>
+					<input type="text" name="surname" id="surname">
+				</div>
+				<div class="controlgroup">
+					<label for="interest">I am interested in:</label>
+					<select name="interest" id="interest">
+						<option value="guitar">Guitar Lessons</option>
+						<option value="drum">Drum Lessons</option>
+						<option value="production">Music Production Lessons</option>
+						<option value="keyboard">Keyboard Lessons</option>
+						<option value="bass">Bass Lessons</option>
+						<option value="stagecraft">Stagecraft Lessons</option>
+					</select>
+				</div>
+				<div class="controlgroup">
+					<label for="message">Message:</label>
+					<textarea placeholder="Type your message here..." name="message" id="message"></textarea>
+				</div>
+				<button id="submitbutton" type="submit">Send</button>
+			</fieldset>
+		</form>
+	</div>
+</body>
+</html>

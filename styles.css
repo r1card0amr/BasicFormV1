@@ -1,0 +1,69 @@
+html {
+	font-family: "montserrat", Arial;
+	box-sizing: border-box;
+}
+
+#pagecontainer {
+	width: 80%;
+	margin: 0 auto; 
+}
+
+label {
+    display: block;
+}
+
+textarea, input, button, select {
+    width: 100%;
+}
+
+.controlgroup {
+    padding-bottom: 1rem;
+}
+
+textarea, input, select, option {
+    color: #04080B; 
+    font-size: 0.85rem;
+}
+
+input, select {
+	padding: 0.5rem 0;
+}
+
+fieldset {
+    padding: 1rem;
+    border: 4px solid #CAD2DB;
+    border-radius: 4px;
+}
+textarea {
+    height: 6rem;
+}
+
+legend {
+    font-size: 1.25rem;
+    color: #444;
+}
+
+button {
+	border-radius: 4px;
+}
+
+@media (min-width: 1024px) {
+	
+	form {
+		width: 50%;
+	}
+	
+	label {
+		width: 40%;
+		float: left;
+	}
+
+	textarea, input[type=text], input[type=email], select {
+		width: 55%;
+	}
+	
+	button {
+		width: 15%;
+	}
+
+}
